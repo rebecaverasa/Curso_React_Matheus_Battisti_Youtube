@@ -1,0 +1,19 @@
+#Props:
+
+- As props sao valores passados para componentes. 
+(um componente filho recebe uma propriedade(prop) de um componente pai. Qualquer tipo de dado que pode ser passado para um componente);
+
+- Podemos deixa-los dinamicos.
+(podemos usar os componentes com valores diferentes);
+
+- Ou seja, mudando a execucao por conta do valor da prop.
+(se eu tenho o mesmo componente, cada um com valor diferente, tenho um componente dinamico, e nao estatico que imprime sempre o mesmo valor!);
+
+- O valor é passado como um atributo na chamada do componente.
+(exemplo, o ClassName, o scr, sao como os atributos de uma tag);
+
+- E precisa ser resgatado dentro de uma propriedade/argumento chamada props na funcao de definicao do componente. 
+(precisa ter o argumento dentro da funcao do componente, chamado de props, e a gente pode tirar desse objeto props todas as propriedades que enviamos. Basicamente, no componente pai a gente envia várias propriedades, o componente vai condensar em uma chamada props, e aí extraimos todos esses valores do componente pela propriedade props);
+
+- As props sao somente de leitura! 
+(nao vamos modificar esse valor, estamos apenas recebendo e utilizando)
